@@ -1,0 +1,120 @@
+.body{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    border: 10px solid burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    width: 50vh;
+    height: 50vh;
+}
+.centerDot{
+    width: 25px;
+    height: 25px;
+    background-color: palegreen;
+    position: absolute;
+    border-radius: 100%;
+}
+.hourStick{
+    width: 20px;
+    height: 210px;
+    transform: rotate(90deg);
+    display: flex;
+    position: absolute;
+}
+.hourStick1{
+    width: 20px;
+    height: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(110, 55, 4);
+}
+.minuteStick{
+    width: 20px;
+    height: 240px;
+    display: flex;
+    position: absolute;
+}
+.minuteStick1{
+    width: 20px;
+    height: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(3, 81, 117);
+}
+.secondStick{
+    width: 20px;
+    height: 280px;
+    display: flex;
+    transform: rotate(190deg);
+    position: absolute;
+}
+.secondStick1{
+    width: 20px;
+    height: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(214, 190, 206);
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    font-size: 25px;
+}
+.one{
+    translate: 75px 30px;
+    color:rgb(253, 22, 6);
+}
+.two{
+    translate: 120px 60px;
+    color:rgb(194, 142, 46);
+}
+.three{
+    translate: 140px 97px;
+    color:rgb(65, 161, 240);
+}
+.four{
+    translate: 120px 140px;
+    color:rgb(25,25,35);
+}
+.five{
+    translate: 75px 165px;
+    color:rgb(201, 130, 23);
+}
+.six{
+    translate: 0px 160px;
+    color:rgb(14, 120, 219);
+}
+.seven{
+    translate: -75px 110px;
+    color:rgba(255, 0, 128, 0.904);
+}
+.eight{
+    translate: -120px 30px;
+    color:rgb(16, 22, 1);
+}
+.nine{
+    translate: -140px -70px;
+    color:rgb(15, 160, 228);
+}
+.ten{
+    translate: -125px -170px;
+    color:rgb(10, 12, 1);
+}
+.eleven{
+    translate: -75px -250px;
+    color:rgb(212, 17, 212);
+}
+.twelve{
+    translate: 0px -300px;
+    color:rgb(65, 161, 240);
+}

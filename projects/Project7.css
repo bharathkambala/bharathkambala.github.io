@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+}
+.ani{
+    height:150px;
+    width:130px;
+    background-color:black;
+    transition:2s;
+    font-size: small;
+    justify-content: center;
+}
+.ani1{
+    height:120px;
+    width:130px;
+    background-color:yellow;
+    transition:3s;
+    font-size: large;
+    justify-content: center;
+}
+.ani:hover{
+  background-color:yellowgreen;
+  transform: rotate(50deg);
+  /*transition-property:backround-color;*/
+  /*transition-property: width;*/
+}
+.ani1:hover{
+    background-color:pink;
+    transform: rotate(500deg);
+    /*transition-property:backround-color;*/
+    /*transition-property: width;*/
+}
+  
